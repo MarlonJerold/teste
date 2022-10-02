@@ -12,7 +12,7 @@ public class App {
 
         //Fazer conexao https e buscar os top 250 filmes
         String url = "https://imdb-api.com/en/API/Top250Movies/k_l89y0mfu";
-        URI endereco =URI.create(url);
+        URI endereco = URI.create(url);
         HttpClient newHttpClient = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder(endereco).GET().build();
         HttpResponse<String> response = newHttpClient.send(request, BodyHandlers.ofString());
@@ -29,6 +29,6 @@ public class App {
             System.out.println(film.get("imDbRating"));
             System.out.println();
         }
-
+        //teste
     }
 }
