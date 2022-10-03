@@ -16,6 +16,6 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-# FilmesJava
-  Estou aplicando consulta de API em Java puro onde estarei utilizando API de classificação de filmes, onde podendo futuramente está send usado para classificações, indicações e consultas.
-  Estou usando sistema baseado em orientado a objetos e utilizando leitura atravéz de Json
+# Java movies
+I'm applying API query in pure Java where I'll be using movie rating API, where in the future it's being used for ratings, indications and queries. 
+I'm using object-oriented system and using Json reading
