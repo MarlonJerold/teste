@@ -55,3 +55,82 @@ O projeto é composto pelas seguintes classes:
 Poderia ter feito o teste técnico sem usar frameworks, porém quis adicionar porque achei interessante quando estamos falando de um contexto real, precisamos de facilidade em configurações, também, adicionei dependências para caso o projeto seguisse para APIs, que no caso não foi o pedido, a regra de negócio está no Main, onde para determinados Models, criei o método para o contexto presente na Classe. Planos para o futuro? Poderia se conectar a um banco de dados, também adicionei dependendência para banco H2, utilizando Spring Data JPA, para uma futura persistencia assim como a adição de um Hibernate para o projeto.
 
 Em seguida, poderia criar Controllers, onde teria as rotas das funcionalidades que poderia ser escrita em um serviço, onde o serviço teria instancia de um repositôrio, dando acesso ao banco.
+
+## Retorno do programa
+
+### Funcionários:
+
+- **Maria (Operador):** Salário: 2210.384
+- **Caio (Coordenador):** Salário: 10819.754
+- **Miguel (Diretor):** Salário: 21031.868
+- **Alice (Recepcionista):** Salário: 2458.148
+- **Heitor (Operador):** Salário: 1740.992
+- **Arthur (Contador):** Salário: 4479.024
+- **Laura (Gerente):** Salário: 3319.195
+- **Heloísa (Eletricista):** Salário: 1767.535
+- **Helena (Gerente):** Salário: 3079.923
+
+### Funcionários agrupados por função:
+
+- **Operador:**
+  - Maria (Salário: 2210.384)
+  - Heitor (Salário: 1740.992)
+- **Eletricista:**
+  - Heloísa (Salário: 1767.535)
+- **Recepcionista:**
+  - Alice (Salário: 2458.148)
+- **Diretor:**
+  - Miguel (Salário: 21031.868)
+- **Gerente:**
+  - Laura (Salário: 3319.195)
+  - Helena (Salário: 3079.923)
+- **Coordenador:**
+  - Caio (Salário: 10819.754)
+- **Contador:**
+  - Arthur (Salário: 4479.024)
+
+### Funcionários que fazem aniversário em outubro (10) e dezembro (12):
+
+- Maria (Data de Nascimento: 2000-10-18)
+- Miguel (Data de Nascimento: 1988-10-14)
+
+### Funcionário mais velho:
+
+- **Nome:** Caio
+- **Idade:** 63
+
+### Funcionários em ordem alfabética:
+
+- Alice
+- Arthur
+- Caio
+- Heitor
+- Helena
+- Heloísa
+- Laura
+- Maria
+- Miguel
+
+### Total dos salários dos funcionários:
+
+50906.823
+
+### Salários mínimos dos funcionários:
+
+- Alice: 2.02
+- Arthur: 3.69
+- Caio: 8.92
+- Heitor: 1.43
+- Helena: 2.54
+- Heloísa: 1.45
+- Laura: 2.73
+- Maria: 1.82
+- Miguel: 17.35
+
+![image](https://github.com/MarlonJerold/teste/assets/63025001/4c53ef71-a287-40a2-a656-ff681381bbc3)
+
+![image](https://github.com/MarlonJerold/teste/assets/63025001/0389deeb-835d-42df-8ce5-63c1313ccee3)
+![image](https://github.com/MarlonJerold/teste/assets/63025001/cdca675f-08ca-425a-a073-6a50429098b2)
+![image](https://github.com/MarlonJerold/teste/assets/63025001/1aed8282-8705-4b42-9d73-3ef892de14d7)
+![image](https://github.com/MarlonJerold/teste/assets/63025001/5ff9c0a2-0f24-41b6-aa6b-f85bc6749722)
+![image](https://github.com/MarlonJerold/teste/assets/63025001/54f608ae-4cc7-47ef-9a69-f293e4df2433)
